@@ -1,0 +1,42 @@
+delay: 1
+input: RED, BLUE, YELLOW, GREEN, PURPLE, PINK, BLACK, BLANCHEDALMOND
+0: input, (40, 20)
+1: passthrough, (80, 60)
+2: sink, (120, 20)
+3: passthrough, (40, 100)
+4: passthrough, (160, 100)
+5: passthrough, (160, 60)
+6: passthrough, (160, 20)
+7: sink, (200, 20)
+8: sink, (200, 60)
+9: passthrough, (200, 100)
+10: passthrough, (280, 100)
+11: passthrough, (280, 60)
+12: passthrough, (280, 20)
+13: sink, (320, 20)
+14: sink, (320, 60)
+15: passthrough, (320, 100)
+16: passthrough, (420, 100)
+17: passthrough, (420, 20)
+18: sink, (390, 20)
+19: sink, (450, 20)
+0 -> 1
+1 -> 2
+1 -> 3
+3 -> 4
+4 -> 5
+5 -> 6
+6 -> 7
+5 -> 8
+4 -> 9
+9 -> 10
+10 -> 11
+11 -> 12
+12 -> 13
+11 -> 14
+10 -> 15
+15 -> 16
+16 -> 17
+17 -> 18
+17 -> 19
+
